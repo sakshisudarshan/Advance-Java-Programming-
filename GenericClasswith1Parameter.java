@@ -7,7 +7,8 @@ class swap<T> { // T is a TYPE PARAMETER
     public void swap() {
         T t=i;
         System.out.println(t.getClass());
-        i=j; //Assignment or binary bits copy can be done irrespective of the type j=t;
+        i=j; //Assignment or binary bits copy can be done irrespective of the type
+        j=t;
     }
     public void display()
     { System.out.println(i+" "+j); }
